@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bootstrap Layout Practice</title>
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<style type="text/css" media="screen">
+		.header {
+			background-color: #5cc4a1;
+			margin-bottom: 10px;
+			border: 2px solid #cacaca;
+		}
+
+		.footer {
+			background-color: #5cc4a1;
+			border: 2px solid #cacaca;
+		}
+
+
+		.ad {
+			background-color: #c45ca6;
+			border: 2px solid #cacaca;
+			padding: 7px 0px 7px 0px;
+		}
+
+
+		.heads {
+			background-color: #e8e888;
+			border: 2px solid #cacaca;
+			margin-bottom: 10px;
+			border-radius: 5px;
+		}
+
+		.hero {
+			background-color: #d1aaef;
+			/*height: 200px;*/
+			margin-bottom: 10px;
+			border: 2px solid #cacaca;
+
+		}
+
+		.feature {
+			background-color: #7f589e;
+			border: 2px solid #cacaca;
+			/*height: 150px;*/
+			border-radius: 5px;
+			margin-bottom: 10px;
+		}
+
+		.body-content {
+			background-color: #93eda3;
+			/*height: 400px;*/
+			margin-bottom: 10px;
+			border: 2px solid #cacaca;
+		}
+
+		.article {
+			background-color: #63a56f;
+			border: 2px solid #cacaca;
+			/*height: 350px;*/
+			border-radius: 5px;
+			margin-bottom: 10px;
+		}
+
+		.sidebar {
+			background-color: #a9b8f9;
+			/*height: 400px;*/
+			margin-bottom: 10px;			
+			border: 2px solid #cacaca;
+		}
+
+		.side-feat {
+			background-color: #798eea;
+			border: 2px solid #cacaca;
+			/*height: 350px;*/
+			margin-bottom: 10px;
+			border-radius: 5px;
+		}
+	</style>
+
+</head>
+
+<body>
+
+	<div class="container header text-center">
+		<h2 class="text-left">HEADER</h2>
+		<div class="row">
+			<div class="col-xs-12 col-sm-3 col-md-3 heads">
+				<p>BRAND</p>
+			</div>
+			<div class="col-xs-7 col-sm-6 col-md-6 heads">
+				<p>GLOBAL NAV</p>
+			</div>
+			<div class="col-xs-5 col-sm-3 col-md-3 heads">
+				<p>TOOLS</p>
+			</div>
+		</div>
+	</div>
+
+	<div class="container content">
+		<div class="row">
+			<div class="col-xs-12 col-sm-12 col-md-9 hero">
+				<h4>HERO</h4>
+				<div class="row">
+					<div class="hidden-xs col-sm-12 col-md-8 feature">
+						<p>HERO FEATURE</p>
+					</div>
+					<div class="col-xs-12 col-sm-12 col-md-4 feature">
+						<p>CALL TO ACTION</p>
+					</div>
+				</div>
+			</div>
+			<div class="hidden-xs hidden-sm col-md-3 ad">
+				<h1>AD</h1>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-xs-12 col-sm-12 col-md-9 body-content">
+				<h4>BODY</h4>
+					<div class="row">
+						<div class="col-xs-12 col-sm-10 col-md-3 article">
+							<p>ARTICLE FEATURE</p>
+						</div>
+						<div class="col-xs-12 col-sm-2 hidden-md hidden-lg ad">
+							<h2>AD</h2>
+						</div>
+						<div class="col-xs-12 col-sm-12 col-md-9 article">
+							<p>ARTICLE LISTINGS</p>
+						</div>
+					</div>
+			</div>
+			<div class="hidden-xs col-sm-12 col-md-3 sidebar">
+				<h4>SIDEBAR</h4>
+				<div class="row">
+					<div class="hidden-xs col-sm-12 col-md-12 side-feat">
+						<p>SIDEBAR FEATURE</p>
+					</div>
+				</div>
+			</div>	
+		</div>
+	</div>
+
+	<div class="container footer">
+		<div class="row">
+			<div class="col-xs-12 col-sm-12 col-md-12">
+				<h2>FOOTER</h2>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>
